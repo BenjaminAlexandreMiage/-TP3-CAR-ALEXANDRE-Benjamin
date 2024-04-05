@@ -7,4 +7,6 @@ public interface AkkaService {
 	
 	void transmissionLigne(String fichier);
 
+	int getNbOccurenceByMot(String mot);
+
 }

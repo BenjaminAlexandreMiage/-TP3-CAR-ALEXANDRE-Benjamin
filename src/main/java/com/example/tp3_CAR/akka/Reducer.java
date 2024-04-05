@@ -25,6 +25,15 @@ public class Reducer extends UntypedActor {
 			
 			System.out.println(mots);
 		}
+		
+		if(message instanceof requestMessage rm) {
+			
+			System.out.println("Reducer : Message de : " + rm.mot());
+		
+			getSender().tell(new reponseMessage(mots.get(rm.mot())),getSelf());
+	
+		}
 	}
+	
 
 }
