@@ -48,7 +48,7 @@ public class ServiceController {
 		model.addAttribute("mot",mot);
 		model.addAttribute("nbOccurence",nb_occurence);
 		
-		return "redirect:/akka/home";
+		return "/akka/home";
 	}
 	
 	
