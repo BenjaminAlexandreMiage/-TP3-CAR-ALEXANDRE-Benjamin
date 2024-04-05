@@ -28,7 +28,7 @@ public class ServiceController {
 	
 	@PostMapping("/initialisation")
 	public String initialisation() {
-		service.createActeur();
+		service.createActeur(3,2);
 		System.out.println("Création des acteurs réalisé");
 		return "redirect:/akka/home";
 	}

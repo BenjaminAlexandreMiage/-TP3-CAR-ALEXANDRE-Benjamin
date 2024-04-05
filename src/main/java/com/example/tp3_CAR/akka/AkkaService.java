@@ -3,7 +3,7 @@ package com.example.tp3_CAR.akka;
 
 public interface AkkaService {
 	
-	void createActeur();
+	void createActeur(int nbMapper,int nbReducer);
 	
 	void transmissionLigne(String fichier);
 

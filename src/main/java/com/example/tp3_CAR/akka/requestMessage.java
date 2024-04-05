@@ -1,6 +1,4 @@
 package com.example.tp3_CAR.akka;
 
-public record requestMessage( String mot) {
-
-}
+public record requestMessage( String mot) {}
 
