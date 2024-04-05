@@ -1,5 +1,7 @@
 <html xmlns:th="https://www.thymeleaf.org" >
 
+<meta charset="utf-8">
+
 <body>
 
 	<h1> TP3 - Akka </h1>
@@ -14,6 +16,14 @@
 		<input type="file" name="fichier">
 		<input type="submit" value="Analyser">
 	</form>
+	
+	<form action="/akka/afficherOccurence" method="post">
+		<h2> Afficher le nombre d'occurence :  </h2>
+		<input type="texte" name="mot">
+		<input type="submit" value="afficher">
+	</form>
+	
+
 
 
 </body>
